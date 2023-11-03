@@ -436,3 +436,10 @@ div .form-row label{
   background-color: #04407c;
   color: bisque;
 }
+.greeting2 {
+  margin-top: 0;
+  text-align: center;
+  display:block;
+  background-color: rgb(38, 78, 41);
+  color: rgb(15, 15, 15);
+}
