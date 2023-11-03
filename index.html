@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELLO THERE TO MY FIRST WEB SITE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><i class="fa-solid fa-people"></i></a>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="index-personal.html#home">INICIO🌆</a></li>
+                    <li><a href="index-personal.html#home">ACERCA DE MI💭</a></li>
+                    <li><a href="index-personal.html#home">TRABAJOS📳</a></li>
+                    <li><a href="index-personal.html#home">SERVICIOS✅</a></li>
+                    <li><a href="index-personal.html#home">CONTACTO👤</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion 1">
+                <div class="acerca-de">
+                    <h2>ACERCA DE MI</h2>
+                    <P>Estudiante de Ingeniería de sistemas interesado en el desarrollo web 
+                    con el perfil de FrontEnd con el diseño de una página. También me está
+                    interesando otras programaciones como python el cual se aplica 
+                    la Inteligencia Artificial, otro tema muy interesante e importante de aprender
+                    para lo que se va presentando en el mercado y con un propósito de aprender 
+                    cosas nuevas con certificaciones para conseguir mejores oportunidades laborales
+                    en el futuro. Otros certificados que hasta la fecha ya tengo es scum foundations
+                    y scrum master, una metodología ágil bastante útil para proyectos relacionados 
+                    con lo que quiero especializarme. Desarrollo de páginas web entre otros proyectos
+                    tecnológicos.
+                    </P>
+                    <p class="p2">Otros certificados que hasta la fecha ya tengo es scum foundations
+                        y scrum master, una metodología ágil bastante útil para proyectos relacionados 
+                        con lo que quiero especializarme. Desarrollo de páginas web entre otros proyectos
+                        tecnológicos.</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/fotoPerfil.jpg" width="200" height="200" alt="mi fotoPerfil">
+                </div>
+            </section>
+            <section class="seccion2">
+                <img src="img/horda.jpg" width="400" height="500" alt="horda">
+                <div class="cuadro">
+                    <div class="cuadro1">
+                        <img src="img/mipersonaje.jpeg" width="400" height="400" alt="">
+                        <h2 class="title1">MI CABALLERO DE LA MUERTE</h2>
+                        <P>Este es mi personaje principal de WOW</P>
+                        <a href="https://wowclassic.blizzard.com/es-es/">MAS INFO DE WOW AQUI</a>
+                    </div>
+                    <div class="cuadro2">
+                        <img src="img/minivader.jpg" width="400" height="400" alt="">
+                        <h2 class="title1">MEJOR VILLANO</h2>
+                        <P>"Tu no conoces el poder del lado oscuro"</P>
+                        <a href="https://wowclassic.blizzard.com/es-es/">MAS INFO DE DARTH VADER AQUI</a>
+                    </div>
+                    <div class="cuadro3">
+                        <img src="img/sc.jpg" width="400" height="400" alt="">
+                        <h2 class="title1">FÚTBOL</h2>
+                        <P>Me gusta el futbol, seguir las mejores ligas del mundo. La premier league</P>
+                        <a href="https://www.google.com/search?q=premier+league&rlz=1C1JZAP_esCO861CO861&oq=premier+league&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyDQgBEC4YgwEYsQMYgAQyDQgCEAAYgwEYsQMYgAQyDQgDEAAYgwEYsQMYgAQyDQgEEAAYgwEYsQMYgAQyDQgFEC4YgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyDQgHEAAYgwEYsQMYgAQyDQgIEC4YgwEYsQMYgAQyBwgJEC4YgATSAQgyMzE3ajBqNKgCALACAA&sourceid=chrome&ie=UTF-8#cobssid=s&sie=t;/m/04ltf;2;;st;fp;1;;;">MAS INFO DE LA PREMIER AQUI</a>
+                    </div>
+                </div>
+            </section>    
+        </main>
+        <footer class="form-header">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+      
+            <form action="" method="get" class="formulario"
+            id="form">
+              <div class="form-row">
+                  <label for="nombre">Nombre</label>
+                  <input id="nombre" name="nombre" type="text" />
+                </div>
+              <div class="form-row">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="b4rdio8@gmail.com"
+                    required  
+                    />
+              </div>
+              <div class="form-row">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje"></textarea>
+              </div>
+              <div class="form-row">
+                  <button type="submit" id="submit">Enviar ✅</button>
+              </div>
+              <p class="alertas" id="alertas"></p>      
+            </form>
+          </footer>
+          <script src="script.js"></script> 
+        <div class="redes">
+        <footer id="contacto">
+            <h3>CONTACTOS</h3>
+        <nav>
+            <ul>
+                <li><a href="index-personal.html#home">INSTAGRAM</a></li>
+                <li><a href="index-personal.html#home">WHATSAPP</a></li>
+                <li><a href="index-personal.html#home">FACEBOOK</a></li>
+            </ul>
+        </nav>
+        </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
