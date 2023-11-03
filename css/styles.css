@@ -429,3 +429,10 @@ div .form-row label{
     .alertas {
       color: crimson;
     }
+.greeting {
+  margin-top: 0;
+  text-align: center;
+  display:block;
+  background-color: #04407c;
+  color: bisque;
+}
